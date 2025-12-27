@@ -67,9 +67,11 @@ export class MinimaxComponent {
   constructor(private cdr: ChangeDetectorRef, private elementRef: ElementRef) {}
 
   ngAfterViewInit(): void {
-    this.onResize();
-    this.animateAlphaBetaPruning();
-    this.loading = false;
+    setTimeout(() => {
+      this.onResize();
+      this.animateAlphaBetaPruning();
+      this.loading = false;
+    });
   }
 
   @HostListener('window:resize')

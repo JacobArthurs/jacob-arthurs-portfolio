@@ -9,7 +9,7 @@ import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { FontAwesomeModule, IconDefinition } from '@fortawesome/angular-fontawesome';
 import { faCheckCircle, faPaperPlane, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-import { ResultSnackbar } from '../result-snackbar/result-snackbar';
+import { ResultSnackbar } from '../../shared/components/result-snackbar/result-snackbar';
 
 @Component({
   selector: 'app-contact',

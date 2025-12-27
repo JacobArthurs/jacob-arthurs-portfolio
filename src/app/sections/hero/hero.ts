@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
-import { MinimaxComponent } from '../minimax/minimax';
-import { AnimatedText } from '../animated-text/animated-text';
+import { MinimaxComponent } from '../../shared/components/minimax/minimax';
+import { AnimatedText } from '../../shared/components/animated-text/animated-text';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faFileLines, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 

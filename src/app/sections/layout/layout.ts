@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
 import { MatIconButton } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatListModule } from '@angular/material/list';
-import { Logo } from '../logo/logo';
+import { Logo } from '../../shared/components/logo/logo';
 
 
 @Component({

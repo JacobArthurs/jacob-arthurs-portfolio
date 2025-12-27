@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatChipsModule } from '@angular/material/chips';
-import { ReverseAnimatedText } from '../reverse-animated-text/reverse-animated-text';
+import { ReverseAnimatedText } from '../../shared/components/reverse-animated-text/reverse-animated-text';
 
 @Component({
   selector: 'app-experience',

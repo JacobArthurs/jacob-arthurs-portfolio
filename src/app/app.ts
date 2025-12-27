@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { HeroComponent } from './components/hero/hero';
-import { AboutComponent } from './components/about/about';
-import { SkillsComponent } from './components/skills/skills';
-import { BackgroundComponent } from './components/background/background';
-import { ContactComponent } from './components/contact/contact';
-import { FooterComponent } from './components/footer/footer';
-import { LayoutComponent } from './components/layout/layout';
+import { HeroComponent } from './sections/hero/hero';
+import { AboutComponent } from './sections/about/about';
+import { SkillsComponent } from './sections/skills/skills';
+import { BackgroundComponent } from './sections/background/background';
+import { ContactComponent } from './sections/contact/contact';
+import { FooterComponent } from './sections/footer/footer';
+import { LayoutComponent } from './sections/layout/layout';
 
 @Component({
   selector: 'app-root',

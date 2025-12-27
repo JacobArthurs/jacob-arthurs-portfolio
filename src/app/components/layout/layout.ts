@@ -70,12 +70,12 @@ export class LayoutComponent {
     sections.forEach(section => this.observer.observe(section));
   }
 
-  toggleTheme(): void {
+  protected toggleTheme(): void {
     this.themeService.toggleTheme();
     this.currentTheme = this.themeService.getTheme();
   }
 
-  scrollToSection(sectionId: string): void {
+  protected scrollToSection(sectionId: string): void {
     this.currentSection = sectionId;
 
     const element = document.getElementById(sectionId);

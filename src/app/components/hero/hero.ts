@@ -17,10 +17,19 @@ import { faFileLines, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 export class HeroComponent {
   protected faFileLines: IconDefinition = faFileLines;
 
-  scrollToSection(sectionId: string): void {
+  protected scrollToSection(sectionId: string): void {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const scrollContainer = document.querySelector('mat-sidenav-content');
+      const headerOffset = 150;
+
+      if (scrollContainer) {
+        const elementPosition = element.offsetTop - headerOffset;
+        scrollContainer.scrollTo({
+          top: elementPosition,
+          behavior: 'smooth'
+        });
+      }
     }
   }
 }

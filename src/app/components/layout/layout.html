@@ -19,7 +19,7 @@
     aria-label="Toggle theme"
     [matTooltip]="currentTheme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'"
     matTooltipPosition="below">
-    <fa-icon [icon]="currentTheme === 'light' ? faMoon : faSun"></fa-icon>
+    <fa-icon [icon]="currentTheme === 'light' ? faMoon : faSun" />
   </button>
 </div>
 
@@ -33,13 +33,13 @@
       matIconButton
       (click)="toggleTheme()"
       aria-label="Toggle theme">
-      <fa-icon [icon]="currentTheme === 'light' ? faMoon : faSun"></fa-icon>
+      <fa-icon [icon]="currentTheme === 'light' ? faMoon : faSun" />
     </button>
     <button
       matIconButton
       (click)="sideMenu.toggle()"
       aria-label="Toggle menu">
-      <fa-icon [icon]="sideMenu.opened ? faTimes : faBars"></fa-icon>
+      <fa-icon [icon]="sideMenu.opened ? faTimes : faBars" />
     </button>
   </div>
 </mat-toolbar>

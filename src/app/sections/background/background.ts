@@ -25,10 +25,10 @@ export class BackgroundComponent {
       startDate: new Date(2022, 3),
       endDate: undefined,
       description: [
-        'Lead development team, providing mentorship and translating business requirements into technical solutions',
+        'Led development team, providing mentorship and translating business requirements into technical solutions',
         'Migrated monolithic application to microservices architecture, containerizing 6+ services with Docker',
         'Led database migration from MSSQL to PostgreSQL, improving performance by 60%',
-        'Built AWS infrastructure using Terraform with GitHub Actions CI/CD',
+        'Built and managed AWS infrastructure using Terraform with GitHub Actions CI/CD',
         'Integrated third-party vendor APIs with real-time data processing solutions'
       ]
     },
@@ -91,8 +91,8 @@ export class BackgroundComponent {
   protected calculateDuration(startDate: Date, endDate?: Date): string {
     const end = endDate ?? new Date();
 
-    const totalMonths = (end.getFullYear() - startDate.getFullYear()) * 12 
-                      + (end.getMonth() - startDate.getMonth()) 
+    const totalMonths = (end.getFullYear() - startDate.getFullYear()) * 12
+                      + (end.getMonth() - startDate.getMonth())
                       + 1;
 
     const years = Math.floor(totalMonths / 12);

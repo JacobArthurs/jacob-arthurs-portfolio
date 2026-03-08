@@ -21,28 +21,28 @@ export class BackgroundComponent {
     {
       organization: 'BAM Technologies',
       logo: 'Bam.jpg',
-      subject: 'Senior Full Stack Software Engineer',
+      subject: 'Senior Software Engineer',
       startDate: new Date(2022, 3),
       endDate: undefined,
       description: [
-        'Led development team, providing mentorship and translating business requirements into technical solutions',
-        'Migrated monolithic application to microservices architecture, containerizing 6+ services with Docker',
-        'Led database migration from MSSQL to PostgreSQL, improving performance by 60%',
-        'Built and managed AWS infrastructure using Terraform with GitHub Actions CI/CD',
-        'Integrated third-party vendor APIs with real-time data processing solutions'
+        'Led architectural migration from monolithic ASP.NET MVC to containerized microservices, deploying 6 .NET APIs and Angular TypeScript client to AWS ECS with zero downtime',
+        'Architected OAuth2 B2B authentication for College Board and Prometric integrations using JWT/JWKS with automatic key rotation, eliminating manual processing for 100,000+ records',
+        'Migrated production database from MSSQL to PostgreSQL, achieving 60% query performance improvement through schema redesign, query refactoring, and indexing strategies',
+        'Built AWS infrastructure with Terraform including ECS clusters, ECR repositories, RDS instances, S3 storage, SNS/SQS messaging, and CI/CD pipelines via GitHub Actions',
+        'Provided technical leadership through code reviews, architecture discussions, and cross-team coordination with DevOps and security teams'
       ]
     },
     {
       organization: 'United States Air Force',
       logo: 'USAF.jpg',
-      subject: 'Full Stack Software Engineer Intern',
+      subject: 'Software Engineer Intern',
       startDate: new Date(2020, 4),
       endDate: new Date(2022, 3),
       description: [
-        'Developed ASP.NET MVC applications supporting mission-critical operations',
-        'Created feedback tracking system enabling systematic issue analysis for 500+ users',
-        'Optimized SQL queries, reducing report generation time by 40%',
-        'Collaborated in Agile Scrum environment with sprint planning and code reviews'
+        'Developed full stack ASP.NET MVC applications supporting mission-critical operations through full software development lifecycle',
+        'Created feedback tracking system using jQuery and Bootstrap, enabling systematic issue analysis for 500+ users',
+        'Optimized SQL queries in Microsoft SQL Server, reducing report generation time by 40%',
+        'Collaborated in Agile Scrum team, participating in sprint planning, daily stand-ups, and code reviews'
       ]
     },
     {

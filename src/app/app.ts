@@ -39,7 +39,7 @@ export class App {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Jacob Arthurs",
-      "jobTitle": "Senior Full Stack Software Engineer",
+      "jobTitle": "Senior Software Engineer",
       "url": "https://jacobarthurs.com",
       "sameAs": [
         "https://linkedin.com/in/JacobArthurs",

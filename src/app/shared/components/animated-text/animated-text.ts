@@ -11,9 +11,9 @@ export class AnimatedText {
   @ViewChild('masterTextPath') masterTextPath!: ElementRef<SVGTextPathElement>;
   @ViewChild('masterTextPathClone') masterTextPathClone!: ElementRef<SVGTextPathElement>;
 
-  protected text = 'Full Stack Engineer • Team Lead • Active Secret Clearance • System Architect • Technical Mentor •';
+  protected text = 'Senior Software Engineer • Team Lead • Active Secret Clearance • System Architect • Technical Mentor •';
   private timeline?: gsap.core.Timeline;
-  protected readonly OFFSET: string = '60%';
+  protected readonly OFFSET: string = '63%';
 
   ngAfterViewInit(): void {
     this.initAnimation();

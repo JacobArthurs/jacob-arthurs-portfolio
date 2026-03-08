@@ -22,7 +22,7 @@ export class SkillsComponent {
       icon: faServer,
       title: 'Backend & Architecture',
       description: 'Building scalable, maintainable systems that teams can depend on for years to come. I focus on performance, security, and architecture that solves problems without overengineering.',
-      tags: ['C#', '.NET', 'ASP.NET Core', 'RESTful APIs', 'Microservices', 'PostgreSQL', 'SQL Server', 'JWT Authentication'],
+      tags: ['C#', '.NET', 'RESTful APIs', 'Microservices', 'PostgreSQL', 'Java', 'Python', 'Go'],
       gridColumns: 7
     },
     {
@@ -36,14 +36,14 @@ export class SkillsComponent {
       icon: faCloud,
       title: 'Cloud & Infrastructure',
       description: 'Deploying and optimizing at scale. I automate infrastructure with Terraform, containerize with Docker, and build CI/CD pipelines that teams can trust.',
-      tags: ['AWS (ECS, RDS, S3, SNS/SQS)', 'Docker', 'GitHub Actions', 'CI/CD', 'Terraform (IaC)'],
+      tags: ['AWS', 'Docker', 'GitHub Actions', 'CI/CD', 'Terraform (IaC)'],
       gridColumns: 6
     },
     {
       icon: faExchangeAlt,
       title: 'Data & Integration',
       description: 'Connecting systems and managing data flows between services. From database migrations with major performance improvements to B2B integrations handling thousands of transactions.',
-      tags: ['Database Migration', 'SQL Optimization', 'OAuth2 / JWT / JWKS', 'API Integration', 'B2B Integration', 'Data Architecture', 'ETL'],
+      tags: ['Database Migration', 'SQL Optimization', 'OAuth2 / JWT / JWKS', 'API Integration', 'B2B Integration', 'ETL'],
       gridColumns: 8
     },
     {
@@ -70,7 +70,7 @@ export class SkillsComponent {
     const rect = element.getBoundingClientRect();
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
-    
+
     (event.currentTarget as HTMLElement).style.setProperty('--mouse-x', `${x}px`);
     (event.currentTarget as HTMLElement).style.setProperty('--mouse-y', `${y}px`);
   }
